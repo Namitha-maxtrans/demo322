@@ -1,4 +1,4 @@
-
+//TypeScript
 let namee: string = "Namitha";
 let age: number = 25;
 
