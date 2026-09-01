@@ -94,8 +94,8 @@ const server = http.createServer((req, res) => {
 
     else if (method === "PUT" && pathname.startsWith("/users/")) {
 
-        const id = Number(pathname.split("/")[2]);
-
+        const id = Number(pathname.split("/")[2]);  //split converts string to array
+ 
         let body = "";
 
         req.on("data", chunk => {
