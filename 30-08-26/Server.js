@@ -133,9 +133,9 @@ const server = http.createServer((req, res) => {
         });
     }
 
-    // -------------------------
+    
     // DELETE /users/:id
-    // -------------------------
+    
     else if (method === "DELETE" && pathname.startsWith("/users/")) {
 
         const id = Number(pathname.split("/")[2]);
