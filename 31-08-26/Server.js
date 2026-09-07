@@ -30,7 +30,7 @@ const server = http.createServer((req, res) => {
             "Content-Type": "application/json"
         });
 
-        res.end(JSON.stringify(users));
+        res.end(JSON.stringify(users)); 
     }
 
     // -------------------------
